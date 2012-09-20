@@ -63,3 +63,10 @@ make install
 ### cucumber
 <pre><code>/opt/ruby-chef/bin/gem install cucumber --no-ri --no-rdoc</code></pre>
 
+### librarian
+<pre><code>/opt/ruby-chef/bin/gem install librarian --no-ri --no-rdoc</code></pre>
+
+Setup your server with librarian-chef.
+-----
+
+See [https://github.com/higanworks/chef-with-ruby_precise-x86_64](https://github.com/higanworks/chef-with-ruby_precise-x86_64)

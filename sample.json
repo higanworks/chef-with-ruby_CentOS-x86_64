@@ -1,0 +1,14 @@
+{
+   "rvm" : {
+      "default_ruby" : "system",
+      "rubies" : [
+         "ruby-1.9.3-p194"
+      ]
+   },
+   "run_list" : [
+      "recipe[monit_binaries]",
+      "recipe[redis_src]",
+      "recipe[rvm::system]"
+   ]
+}
+

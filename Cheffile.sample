@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+# external
+cookbook 'rvm',
+  :git => 'https://github.com/fnichol/chef-rvm'
+
+# my cookbooks
+cookbook 'monit_binaries',
+  :git => 'https://github.com/higanworks-cookbooks/monit_binaries.git'
+
+cookbook 'redis_src',
+  :git => 'https://github.com/higanworks-cookbooks/redis_src.git'
+
